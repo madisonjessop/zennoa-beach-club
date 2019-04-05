@@ -1,0 +1,17 @@
+.plan-title {
+  background-image: url(../../static/assets/zennoa-website-images/marketing/plan-trip-banner.jpg);
+  padding: 100px;
+  height: 370px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 75px;
+    padding: 30px 0 0 0;
+  }
+}

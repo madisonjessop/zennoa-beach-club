@@ -1,0 +1,30 @@
+@import "./variables.scss";
+@import "./header.scss";
+@import "./home.scss";
+@import "./footer.scss";
+@import "./about.scss";
+@import "./qualify.scss";
+@import "./plan-auth.scss";
+@import "./plan-my-trip.scss";
+
+
+html {
+  background-color: $almost-black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $special-font;
+}
+
+.no-match {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .home-link {
+    text-decoration: none;
+    color: $zennoa-blue;
+  }
+}

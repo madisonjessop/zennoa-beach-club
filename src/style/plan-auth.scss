@@ -1,0 +1,41 @@
+.auth-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 100px);
+
+  .left-column {
+    background-size: cover;
+  }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    color: $almost-black;
+
+    p {
+      font-family: $main-font;
+      text-align: center;
+    }
+
+    .verify-btn {
+      text-decoration: none;
+      background-color: $zennoa-blue;
+      color: $almost-black;
+      height: 42px;
+      font-weight: 400;
+      border: none;
+      transition: all 0.5s ease-in-out;
+      padding: 10px 20px;
+      font-size: 16px;
+
+      &:hover {
+        background-color: $nh-pink;
+        color: white;
+      }
+    }
+  }
+}

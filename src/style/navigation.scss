@@ -1,0 +1,54 @@
+@import './variables.scss';
+
+.navigation-wrapper {
+  height: 77px;
+  margin-top: 54px;
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+
+  .nav-left-side a.zennoaHome {
+    display: block;
+    width: 152px;
+    height: 45px;
+    margin-left: 35px;
+    background: url(../../static/assets/zennoa-website-images/logos-icons/zennoa-logo.png) no-repeat;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  .nav-right-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+
+    .nav-link-wrapper {
+      width: 100px;
+      text-align: center;
+  
+      a {
+        font-family: $main-font;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        // padding: 0 22px 0 22px;
+        transition: .25s;
+
+        &:hover {
+          cursor: pointer;
+          border-bottom: 3px solid $zennoa-blue;
+        }
+      }
+    }
+  }
+}

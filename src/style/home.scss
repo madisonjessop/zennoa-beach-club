@@ -1,0 +1,80 @@
+@import './variables.scss';
+
+.hero-section {
+  background-image: url(../../static/assets/thailand-images/homepage-img.jpg);
+  padding: 100px;
+  height: 700px;
+  background-attachment: fixed;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $special-font;
+
+  .hero-logo {
+    height: 300px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 220px;
+      height: 100%;
+    }
+  }
+
+  .hero-title {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+/* Features section styles */
+.features-section {
+  height: 500px;
+  background-image: url(../../static/assets/zennoa-website-images/accents/leaf-pink-blue-banner.jpg);
+  background-color: #F32168;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $main-font;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+
+  .columns-wrapper {
+    max-width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .column {
+      // padding: 18px;
+      margin: 30px 35px 40px 35px;
+      text-align: center;
+      border-bottom: 5px solid transparent;
+      transition: 1s;
+
+      a {
+        font-family: $special-font;
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+      }
+
+      p {
+        font-family: $main-font;
+        font-size: 18px;
+      }
+
+      &:hover {
+        border-bottom: 5px solid white;
+        cursor: pointer;
+
+      }
+    }
+  }
+}
+

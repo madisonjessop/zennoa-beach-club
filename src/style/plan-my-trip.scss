@@ -15,3 +15,10 @@
     padding: 30px 0 0 0;
   }
 }
+
+.plan-trip-apps {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: calc(100vh - 77);
+  width: 100%;
+}

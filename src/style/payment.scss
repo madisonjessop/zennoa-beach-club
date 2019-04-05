@@ -1,0 +1,53 @@
+.payment {
+  background-image: url(../../static/assets/thailand-images/payment.jpg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $main-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .payment-wrapper {
+    display: block;
+    width: 450px;
+    height: 475px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(50, 192, 212, .75);
+    color: $almost-black;
+
+    .payment-description {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .payment-amount {
+      text-align: center;
+      p {
+        font-size: .7rem;;
+      }
+    }
+
+    .pay-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;;
+      border-bottom: 50px;
+
+      .pay-input {
+        padding: 8px;
+
+        input:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .pay-btn {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}

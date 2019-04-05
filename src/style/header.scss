@@ -23,7 +23,7 @@
   }
 
   .top-black-right {
-      a.login {
+    a.login {
       margin: 10px 0 0 10px;
       padding: 10px 5px 9px 45px;
       background: url(../../static/assets/zennoa-website-images/logos-icons/login-logo.png) 0 -3px no-repeat;
@@ -32,48 +32,11 @@
       text-decoration: none;
       text-transform: uppercase;
       height: 45px;
- 
-        &:hover {
-          cursor: pointer;
-        }
+
+      &:hover {
+        cursor: pointer;
       }
-
-    // .languages {
-    //   position: absolute;
-    //   top: 0;
-    //   right: 10px;
-    //   width: 110px;
-    //   height: 50px;
-    //   z-index: 1000;
-
-    //   #currentLanguage {
-    //     color: #fff;
-    //     font-size: 16px;
-    //     padding: 20px 5px 15px 7px;
-    //     cursor: pointer;
-    //     text-align: right;
-    //   }
-
-    //   ul {
-    //     padding: 2px 0 0 0;
-    //     background: #181819;
-    //     overflow-y: hidden;
-    //     max-height: 0;
-    //     transition-property: all;
-    //     transition-duration: .3s;
-    //     transition-timing-function: linear;
-    //     list-style: none;
-    //   }
-
-    //   a {
-    //     color: #fff;
-    //     font-size: 16px;
-    //     text-decoration: none;
-    //     display: block;
-    //     padding: 7px;
-    //     list-style: none;
-    //   }
-    // }
+    }
   }
 }
 
@@ -118,7 +81,6 @@
         text-transform: uppercase;
         color: #fff;
         text-decoration: none;
-        // padding: 0 22px 0 22px;
         transition: .25s;
 
         &:hover {

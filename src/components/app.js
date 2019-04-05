@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import axios from "axios";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import Header from "./navigation/header";
 import Footer from "./navigation/footer";
@@ -13,7 +12,7 @@ import Qualify from "./pages/qualify";
 import Plan from "./pages/plan";
 import NoMatch from "./pages/no-match";
 
-library.add(fab, faSignOutAlt);
+library.add(fab, faBars);
 
 export default class App extends Component {
   constructor(props) {

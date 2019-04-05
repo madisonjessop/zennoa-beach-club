@@ -1,5 +1,3 @@
-@import './variables.scss';
-
 .hero-section {
   background-image: url(../../static/assets/thailand-images/homepage-img.jpg);
   padding: 100px;
@@ -30,7 +28,6 @@
   }
 }
 
-/* Features section styles */
 .features-section {
   height: 500px;
   background-image: url(../../static/assets/zennoa-website-images/accents/leaf-pink-blue-banner.jpg);
@@ -51,7 +48,6 @@
     align-items: center;
 
     .column {
-      // padding: 18px;
       margin: 30px 35px 40px 35px;
       text-align: center;
       border-bottom: 5px solid transparent;

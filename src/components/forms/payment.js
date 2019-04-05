@@ -8,7 +8,7 @@ export default class Payment extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log(e);
+    return e
   }
 
   render() {

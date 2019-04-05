@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+
 import { withRouter } from "react-router"; 
 import { NavLink } from "react-router-dom";
 
@@ -28,24 +28,6 @@ const Header = props => {
           <a href="https://app.zennoa.com" className="login">
             <span>Login</span>
           </a>
-
-          {/* <div className="languages">
-            <div id="currentLanguage">English</div>
-            <ul>
-              <li>
-                <a href="/jp/">日本語</a>
-              </li>
-              <li>
-                <a href="/es/">Español</a>
-              </li>
-              <li>
-                <a href="/ru/">Русский</a>
-              </li>
-              <li>
-                <a href="/en/">English</a>
-              </li>
-            </ul>
-          </div> */}
         </div>
       </div>
 
@@ -82,6 +64,7 @@ const Header = props => {
               Plan
             </NavLink>
           </div>
+        
         </div>      
       </div>
     </div>

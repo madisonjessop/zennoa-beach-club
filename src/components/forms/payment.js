@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import PDF2 from '../../../static/assets/zennoa-website-images/logos-icons/PDF-icon-white.png';
 
 export default class Payment extends Component {
   constructor(props) {
@@ -53,6 +54,12 @@ export default class Payment extends Component {
                 <input type="submit" value="Make Payment"/>
               </div>
             </form> 
+          </div>
+          
+          <div className="pdf-2">
+            <a href="https://s3-us-west-2.amazonaws.com/zennoa-resource-library/Beach+Club/2019-Beach-Club-Agreement.pdf" className="pdf2" target="_blank" title="PDF2">
+              <img src={PDF2}/>
+            </a>
           </div>
         </div>
      </div>

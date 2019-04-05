@@ -16,18 +16,46 @@
   }
 }
 
-.qualify-description {
+.qualify-content {
+  background-image: url(../../static/assets/zennoa-website-images/accents/tribal-large.jpg);
+  height: calc(100vh - 77);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $main-font;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  .pdf-1 img {
+    padding: 0 0 20px 0;
+  } 
+}
+
+.qualify-description {
   text-align: center;
+  padding: 20px;
+}
+
+.points-chart {
+  img {
+    padding: 5px;
+  }
+  p {
+    font-style: italic;
+    padding: 5px;
+  }
 }
 
 .qualify-details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 5px 15px;
   text-align: center;
+
+  .detail {
+    padding: 5px;
+  }
 }

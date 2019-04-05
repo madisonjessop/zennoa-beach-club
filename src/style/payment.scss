@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   .payment-wrapper {
     display: block;
     width: 450px;
@@ -17,6 +17,14 @@
     border: none;
     background-color: rgba(50, 192, 212, .75);
     color: $almost-black;
+
+    .pdf-2 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding: 30px;
+    }
 
     .payment-description {
       padding: 10px;
@@ -48,6 +56,15 @@
     .pay-btn {
       padding: 10px;
       text-align: center;
+      input {
+        background-color: $nh-pink;
+        border: 2px solid $nh-pink;
+        color: white;
+        &:focus {
+          outline: 0;
+          background-color: #9B2151;
+        }  
+      }
     }
   }
 }

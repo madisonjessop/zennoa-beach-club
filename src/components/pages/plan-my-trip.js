@@ -17,7 +17,7 @@ export default class PlanMyTrip extends Component {
         <div className="plan-trip-apps">
           <Payment user={this.props.user} />
         </div>
-        
+
       </div>
     );
   }
